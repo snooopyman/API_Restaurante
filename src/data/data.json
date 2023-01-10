@@ -1,0 +1,137 @@
+[
+  {
+    "nombre": "Solomillo Brasa con patatas",
+    "estado": "Inactivo",
+    "id": 0
+  },
+  {
+    "nombre": "Pollo al Villaroy",
+    "estado": "Inactivo",
+    "id": 1
+  },
+  {
+    "nombre": "Bacaladilla al horno",
+    "estado": "Inactivo",
+    "id": 2
+  },
+  {
+    "nombre": "Ensalada César",
+    "estado": "Inactivo",
+    "id": 3
+  },
+  {
+    "nombre": "Ensaladilla Rusa",
+    "estado": "Inactivo",
+    "id": 4
+  },
+  {
+    "nombre": "Lentejas con Chorizo",
+    "estado": "Inactivo",
+    "id": 5
+  },
+  {
+    "nombre": "Muslito de Pollo",
+    "estado": "Inactivo",
+    "id": 6
+  },
+  {
+    "nombre": "Merluza con Arroz",
+    "estado": "Inactivo",
+    "id": 7
+  },
+  {
+    "nombre": "Croquetas de Bacalao",
+    "estado": "Inactivo",
+    "id": 8
+  },
+  {
+    "nombre": "Salmorejo",
+    "estado": "Inactivo",
+    "id": 9
+  },
+  {
+    "nombre": "Cocido",
+    "estado": "Inactivo",
+    "id": 10
+  },
+  {
+    "nombre": "Pluma Brasa con patatas",
+    "estado": "Inactivo",
+    "id": 11
+  },
+  {
+    "nombre": "Rape con salteado de verduras",
+    "estado": "Inactivo",
+    "id": 12
+  },
+  {
+    "nombre": "Albóndigas y Tallarines",
+    "estado": "Inactivo",
+    "id": 13
+  },
+  {
+    "nombre": "Pechuga BBQ con patatas",
+    "estado": "Inactivo",
+    "id": 14
+  },
+  {
+    "nombre": "Espaguetis a la Carbonara",
+    "estado": "Inactivo",
+    "id": 15
+  },
+  {
+    "nombre": "Risotto",
+    "estado": "Inactivo",
+    "id": 16
+  },
+  {
+    "nombre": "Lomo Brasa con patatas",
+    "estado": "Inactivo",
+    "id": 16
+  },
+  {
+    "nombre": "Pollo al horno con cuscús",
+    "estado": "Inactivo",
+    "id": 17
+  },
+  {
+    "nombre": "Merluza con salteado de verduras",
+    "estado": "Inactivo",
+    "id": 18
+  },
+  {
+    "nombre": "Ensalada del Tiempo con Atún",
+    "estado": "Inactivo",
+    "id": 19
+  },
+  {
+    "nombre": "Croquetas de Setas",
+    "estado": "Inactivo",
+    "id": 20
+  },
+  {
+    "nombre": "Espaguetis a la Carbonara",
+    "estado": "Inactivo",
+    "id": 21
+  },
+  {
+    "nombre": "Secreto Brasa con patatas",
+    "estado": "Inactivo",
+    "id": 22
+  },
+  {
+    "nombre": "Pollo al horno con puré",
+    "estado": "Inactivo",
+    "id": 23
+  },
+  {
+    "nombre": "Rape al horno con verduras",
+    "estado": "Inactivo",
+    "id": 24
+  },
+  {
+    "nombre": "Carne con tomate y arroz",
+    "estado": "Inactivo",
+    "id": 25
+  }
+]
