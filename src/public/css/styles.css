@@ -1,0 +1,59 @@
+.none-styles-type{
+    list-style-type: none;
+}
+
+.color-red{
+    color: red !important; 
+}
+
+.heighTopImages {
+    top: 530px;
+    position: relative;
+}
+h1{
+    display: inline-block;
+    font-family: Montserrat;
+
+}
+.heighBotImages {
+    top: 920px;
+    position: relative;
+}
+
+.mt{
+    margin-top: 34px;
+}
+.Plato1 {
+    color: rgb(255, 255, 255);
+
+    left: 13%;
+    transform: translateX(-50%);
+    position: absolute;
+}
+
+
+.Plato2 {
+    color: rgb(255, 255, 255);
+
+    left: 36%;
+    transform: translateX(-50%);
+    position: absolute;
+}
+
+
+.Plato3 {
+    color: rgb(255, 255, 255);
+
+    left: 63%;
+    transform: translateX(-50%);
+    position: absolute;
+}
+
+.Plato4 {
+    color: rgb(255, 255, 255);
+
+    left: 86%;
+    text-align: center;
+    transform: translateX(-50%);
+    position: absolute;
+}

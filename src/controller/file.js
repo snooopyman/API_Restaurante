@@ -28,12 +28,15 @@ class ContenedorFile {
         }
     }
 
-    updateById(id, estado){
+    updateById(id){
+        console.log(id);
         try {
             const data = this.getAll();
             const response = data.find(el => el.id == id);
             if (!response) throw new Error('No se encontró el producto')
-            response.estado = estado;
+            response.estado = response.estado == "Inactivo" ? "Activo" : "Inactivo";
+            console.log(response)
+            fs.writeFileSync(this.ruta, JSON.stringify(data), "utf-8")
         }catch (e) {
             console.log(e);
             throw e;

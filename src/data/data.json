@@ -6,12 +6,12 @@
   },
   {
     "nombre": "Pollo al Villaroy",
-    "estado": "Inactivo",
+    "estado": "Activo",
     "id": 1
   },
   {
     "nombre": "Bacaladilla al horno",
-    "estado": "Inactivo",
+    "estado": "Activo",
     "id": 2
   },
   {
@@ -31,12 +31,12 @@
   },
   {
     "nombre": "Muslito de Pollo",
-    "estado": "Inactivo",
+    "estado": "Activo",
     "id": 6
   },
   {
     "nombre": "Merluza con Arroz",
-    "estado": "Inactivo",
+    "estado": "Activo",
     "id": 7
   },
   {
@@ -46,12 +46,12 @@
   },
   {
     "nombre": "Salmorejo",
-    "estado": "Inactivo",
+    "estado": "Activo",
     "id": 9
   },
   {
     "nombre": "Cocido",
-    "estado": "Inactivo",
+    "estado": "Activo",
     "id": 10
   },
   {
@@ -81,17 +81,12 @@
   },
   {
     "nombre": "Risotto",
-    "estado": "Inactivo",
-    "id": 16
-  },
-  {
-    "nombre": "Lomo Brasa con patatas",
-    "estado": "Inactivo",
+    "estado": "Activo",
     "id": 16
   },
   {
     "nombre": "Pollo al horno con cuscús",
-    "estado": "Inactivo",
+    "estado": "Activo",
     "id": 17
   },
   {
@@ -110,8 +105,8 @@
     "id": 20
   },
   {
-    "nombre": "Espaguetis a la Carbonara",
-    "estado": "Inactivo",
+    "nombre": "Espaguetis a la Boloñesa",
+    "estado": "Activo",
     "id": 21
   },
   {
@@ -126,12 +121,17 @@
   },
   {
     "nombre": "Rape al horno con verduras",
-    "estado": "Inactivo",
+    "estado": "Activo",
     "id": 24
   },
   {
     "nombre": "Carne con tomate y arroz",
     "estado": "Inactivo",
     "id": 25
+  },
+  {
+    "nombre": "Lomo Brasa con patatas",
+    "estado": "Inactivo",
+    "id": 26
   }
 ]

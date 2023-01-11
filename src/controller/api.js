@@ -5,30 +5,27 @@ const contendorFileController = new ContenedorFile('./src/data/data.json');
 
 const modificarEstado = (req, res, next) => {
     const {id} = req.params;
-    const {estado} = req.body;
     try {
-        contendorFileController.updateById(id, estado);
+        contendorFileController.updateById(id);
         res.status(204);
     } catch (e) {
+        console.log(error);
         next(e);
     }
 }
 const getAll = (req, res, next) => {
-    const {id} = req.params;
-    const {estado} = req.body;
     try {
-        contendorFileController.getAll(id, estado);
-        res.status(204);
+        const result = contendorFileController.getAll();
+        res.status(200).json(result);
     } catch (e) {
         next(e);
     }
 }
 const getByID = (req, res, next) => {
     const {id} = req.params;
-    const {estado} = req.body;
     try {
-        contendorFileController.updateById(id, estado);
-        res.status(204);
+        const result = contendorFileController.getById(id);
+        res.status(200).json(result);
     } catch (e) {
         next(e);
     }

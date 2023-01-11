@@ -1,150 +1,39 @@
 <!DOCTYPE html>
-<html>
-    
+<html lang="es">
+
 <head>
-    <link rel= "stylesheet" type= "text/css" herf= "http.//fonts.googleapis.com/css
-family=Montserrat>
-  
-  <meta name="viewport" content="width=device-width">
-  <title>Menu Semanal Galan's Grills</title>
-  <style>
-  
-    .Plato1 {
-    color: rgb(255, 255, 255);
-    font-family: Montserrat;
-    margin-top: 580px;
-    margin-left: 130px;
-    position: absolute;
-    }
-    .Plato1-2 {
-      color: red;
-      
-    }
-    .Plato2 {
-      color: rgb(255, 255, 255);
-      font-family: Montserrat;
-      margin-top: 950px;
-      margin-left: 88px;
-      position: absolute;
-    }
-    .Plato2-2 {
-      color: red;
-    }
-    .Plato3 {
-    color: rgb(255, 255, 255);
-    font-family: Montserrat;
-    margin-top: 580px;
-    margin-left: 550px;
-    position: absolute;
-    }
-    .Plato3-2 {
-      color: red;
-    }
-    .Plato4 {
-    color: rgb(255, 255, 255);
-    font-family: Montserrat;
-    margin-top: 950px;
-    margin-left: 520px;
-    position: absolute;
-    }
-    .Plato4-2 {
-      color: red;
-    }
-    .Plato5 {
-    color: rgb(255, 255, 255);
-    font-family: Montserrat;
-    margin-top: 580px;
-    margin-left: 990px;
-    position: absolute;
-    }
-    .Plato5-2 {
-      color: red;
-    }
-    .Plato6 {
-    color: rgb(255, 255, 255);
-    font-family: Montserrat;
-    margin-top: 580px;
-    margin-left: 1510px;
-    position: absolute;
-    }
-    .Plato6-2 {
-      color: red;
-    }
-    .Plato7 {
-    color: rgb(255, 255, 255);
-    font-family: Montserrat;
-    margin-top: 950px;
-    margin-left: 1060px;
-    position: absolute;
-    }
-    .Plato7-2 {
-      color: red;
-    }
-    .Plato8 {
-    color: rgb(255, 255, 255);
-    font-family: Montserrat;
-    margin-top: 950px;
-    margin-left: 1450px;
-    position: absolute;
-    }
-    .Plato8-2 {
-      color: red;
-    }
-  </style>
+    <link rel="stylesheet" type="text/css" herf="http.//fonts.googleapis.com/css
+family=Montserrat">
+    <link rel="stylesheet" href="/css/styles.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Menu Semanal Galan's Grills</title>
+    <style>
+
+        html {
+            background: url(./img/LUNES.png) no-repeat center center fixed;
+            background-size: cover;
+            overflow: hidden;
+        }
+
+    </style>
 </head>
-<body background="/LUNES.png">  <!-- INDICAR EL DIRECTORIO DE DONDE ESTA EL FONDO -->
-      
-<h1 class="Plato1">Ensalada César</h1>
-<h1 class="Plato2">Croquetas de Setas</h1>
-<h1 class="Plato3">Ensaladilla Rusa</h1>
-<h1 class="Plato4">Lentejas con Chorizo</h1>
-<h1 class="Plato5">Secreto Brasa con patatas</h1>
-<h1 class="Plato6">Muslito de Pollo</h1>
-<h1 class="Plato7">Merluza con Arroz</h1>
-<h1 class="Plato8">Carne Con Tomate y arroz</h1>
-<script>
-    let Plato1 = document.querySelector(".Plato1")
-    
-    Plato1.addEventListener("click", () => {
-      Plato1.classList.toggle("Plato1-2")
-    })
-    let Plato2 = document.querySelector(".Plato2")
-    
-    Plato2.addEventListener("click", () => {
-      Plato2.classList.toggle("Plato2-2")
-    })
-    let Plato3 = document.querySelector(".Plato3")
-    
-    Plato3.addEventListener("click", () => {
-      Plato3.classList.toggle("Plato3-2")
-    })
-    let Plato4 = document.querySelector(".Plato4")
-    
-    Plato4.addEventListener("click", () => {
-      Plato4.classList.toggle("Plato4-2")
-    })
-    let Plato5 = document.querySelector(".Plato5")
-    
-    Plato5.addEventListener("click", () => {
-      Plato5.classList.toggle("Plato5-2")
-    })
-    let Plato6 = document.querySelector(".Plato6")
-    
-    Plato6.addEventListener("click", () => {
-      Plato6.classList.toggle("Plato6-2")
-    })
-    
-    let Plato7 = document.querySelector(".Plato7")
-    
-    Plato7.addEventListener("click", () => {
-      Plato7.classList.toggle("Plato7-2")
-    })
-    
-    let Plato8 = document.querySelector(".Plato8")
-    
-    Plato8.addEventListener("click", () => {
-      Plato8.classList.toggle("Plato8-2")
-    })
+
+<body>
+<div class="heighTopImages">
+    <h1 id="3" class="Plato1">Ensalada César</h1>
+    <h1 id="4" class="Plato2">Ensaladilla Rusa</h1>
+    <h1 id="22" class="Plato3">Secreto Brasa con patatas</h1>
+    <h1 id="6" class="Plato4">Muslito de Pollo</h1>
+</div>
+<div class="heighBotImages">
+    <h1 id="20" class="Plato1">Croquetas de Setas</h1>
+    <h1 id="5" class="Plato2">Lentejas con Chorizo</h1>
+    <h1 id="7" class="Plato3">Merluza con Arroz</h1>
+    <h1 id="25" class="Plato4">Carne Con Tomate y arroz</h1>
+</div>
+<script src="/js/cliente.js">
+
 </script>
 </body>
 </html>

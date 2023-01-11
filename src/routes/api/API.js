@@ -8,7 +8,7 @@ router.get('/test',(req, res) => {
 
 router.get('/:id', getByID);
 router.get('/', getAll);
-router.put('/modificarEstado/:id', modificarEstado);
+router.put('/:id', modificarEstado);
 
 
 
